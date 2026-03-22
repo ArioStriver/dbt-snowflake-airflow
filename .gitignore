@@ -1,0 +1,65 @@
+
+# dbt
+src/dbt/data_pipeline/target/
+src/dbt/data_pipeline/logs/
+src/dbt/data_pipeline/dbt_packages/
+src/dbt/data_pipeline/.dbt/
+src/dbt/data_pipeline/dbt_modules/
+
+# Python
+dbt-venv/
+__pycache__/
+*.pyc
+
+# Airflow
+src/airflow/logs/
+
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
